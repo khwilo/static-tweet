@@ -3,7 +3,7 @@ import React from 'react';
 const NameWithHandle = () => {
     return (
         <div className="tweet-name">
-            <p>NameWithHandle Component</p>
+            <p><span style={{ fontWeight: "bold" }}>Khwilo Kabaka</span> @khwilo</p>
         </div>
     );
 };

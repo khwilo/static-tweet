@@ -3,7 +3,7 @@ import React from 'react';
 const Time = () => {
     return (
         <div className="tweet-time">
-            <p>Time Component</p>
+            <p>2hrs</p>
         </div>
     )
 };

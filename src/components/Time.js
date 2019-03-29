@@ -2,7 +2,9 @@ import React from 'react';
 
 const Time = () => {
     return (
-        <p>Time Component</p>
+        <div className="tweet-time">
+            <p>Time Component</p>
+        </div>
     )
 };
 

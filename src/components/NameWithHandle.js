@@ -2,7 +2,9 @@ import React from 'react';
 
 const NameWithHandle = () => {
     return (
-        <p>NameWithHandle Component</p>
+        <div className="tweet-name">
+            <p>NameWithHandle Component</p>
+        </div>
     );
 };
 

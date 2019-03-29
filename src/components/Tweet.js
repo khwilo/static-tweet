@@ -12,15 +12,24 @@ import Time from './Time';
 const Tweet = () => {
     return (
         <div className="main">
-            <p>Tweet Component</p>
-            <Avatar />
-            <NameWithHandle />
-            <Time />
-            <Message />
-            <ReplyButton />
-            <LikeButton />
-            <RetweetButton />
-            <MoreOptionsButton />
+            <div className="left-tweetContents">
+                <Avatar />
+            </div>
+            <div className="right-tweetContents">
+                <div className="right-top-tweetContents">
+                    <NameWithHandle />
+                    <Time />
+                </div>
+                <div className="right-middle-tweetContents">
+                    <Message />
+                </div>
+                <div className="right-bottom-tweetContents">
+                    <ReplyButton />
+                    <LikeButton />
+                    <RetweetButton />
+                    <MoreOptionsButton />
+                </div>
+            </div>
         </div>
     )
 };

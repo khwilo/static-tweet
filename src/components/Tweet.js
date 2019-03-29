@@ -11,7 +11,7 @@ import Time from './Time';
 
 const Tweet = () => {
     return (
-        <div>
+        <div className="main">
             <p>Tweet Component</p>
             <Avatar />
             <NameWithHandle />

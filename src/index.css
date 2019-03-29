@@ -43,5 +43,12 @@ body {
   flex-grow      : 1;
   display        : flex;
   justify-content: space-between;
-  padding        : 0 5px 0 5px;
+  padding        : 5px 25px 5px 25px;
+}
+
+.tweet-interact-btn {
+  outline         : none;
+  border          : 0;
+  background-color: white;
+  cursor          : pointer;
 }

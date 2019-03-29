@@ -3,7 +3,7 @@ import React from 'react';
 const ReplyButton = () => {
     return (
         <div>
-            <p>ReplyButton</p>
+            <button className="tweet-interact-btn"><i class="fa fa-reply" aria-hidden="true"></i></button>
         </div>
     );
 };

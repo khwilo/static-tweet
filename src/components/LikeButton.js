@@ -2,7 +2,9 @@ import React from 'react';
 
 const LikeButton = () => {
     return (
-        <p>LikeButton Component</p>
+        <div>
+            <p>LikeButton</p>
+        </div>
     );
 };
 

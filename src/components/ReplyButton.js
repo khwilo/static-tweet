@@ -2,7 +2,9 @@ import React from 'react';
 
 const ReplyButton = () => {
     return (
-        <p>ReplyButton Component</p>
+        <div>
+            <p>ReplyButton</p>
+        </div>
     );
 };
 

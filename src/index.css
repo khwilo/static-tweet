@@ -30,12 +30,18 @@ body {
   display        : flex;
   justify-content: space-between;
   padding        : 0 10px 0 10px;
+  flex-grow      : 1;
 }
 
 .right-middle-tweetContents {
-  border: 1px solid #000000;
+  border   : 1px solid #000000;
+  flex-grow: 2;
 }
 
 .right-bottom-tweetContents {
-  border: 1px solid #000000;
+  border         : 1px solid #000000;
+  flex-grow      : 1;
+  display        : flex;
+  justify-content: space-between;
+  padding        : 0 5px 0 5px;
 }

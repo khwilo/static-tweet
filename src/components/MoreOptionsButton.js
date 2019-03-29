@@ -2,7 +2,9 @@ import React from 'react';
 
 const MoreOptionsButton = () => {
     return (
-        <p>MoreOptionsButton Component</p>
+        <div>
+            <p>MoreOptionsButton</p>
+        </div>
     );
 };
 

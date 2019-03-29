@@ -1,9 +1,33 @@
+body {
+  background-color: #173f5f;
+}
+
 .main {
   margin            : 0 auto;
   width             : 50%;
-  background-color  : #173f5f;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow   : 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow        : 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-color  : white;
+  -webkit-box-shadow: 10px 10px 5px -200px rgba(0,0,0,0.75);
+  -moz-box-shadow   : 10px 10px 5px -200px rgba(0,0,0,0.75);
+  box-shadow        : 10px 10px 5px -200px rgba(0,0,0,0.75);
   padding           : 5px;
+}
+
+.left-tweetContents {
+  border: 1px solid #000000;
+}
+
+.right-tweetContents {
+  border: 1px solid #000000;
+}
+
+.right-top-tweetContents {
+  border: 1px solid #000000;
+}
+
+.right-middle-tweetContents {
+  border: 1px solid #000000;
+}
+
+.right-bottom-tweetContents {
+  border: 1px solid #000000;
 }

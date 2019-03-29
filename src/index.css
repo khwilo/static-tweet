@@ -56,3 +56,11 @@ body {
 .tweet-message {
   padding: 0 5px 0 5px;
 }
+
+.tweet-avatar-container {
+  padding: 10px;
+}
+
+.tweet-avatar {
+  border-radius: 50%;
+}

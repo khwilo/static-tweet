@@ -2,7 +2,13 @@ import React from 'react';
 
 const Avatar = () => {
     return (
-        <p>Avatar Component</p>
+        <div className="tweet-avatar-container">
+            <img
+                className = "tweet-avatar"
+                src       = "https://www.gravatar.com/avatar/nothing"
+                alt       = "avatar"
+            />
+        </div>
     );
 };
 

@@ -52,3 +52,7 @@ body {
   background-color: white;
   cursor          : pointer;
 }
+
+.tweet-message {
+  padding: 0 5px 0 5px;
+}

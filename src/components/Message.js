@@ -2,7 +2,12 @@ import React from 'react';
 
 const Message = () => {
     return (
-        <p>Message Component</p>
+        <div className="tweet-message">
+            <p>
+                In JavaScript, recursion involves functions that call
+                themselves repeatedly until they reach a base condition.
+            </p>
+        </div>
     );
 };
 

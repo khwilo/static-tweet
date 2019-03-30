@@ -1,6 +1,6 @@
 # Static Tweet
 
-A static tweet UI to demonstrate the concept of components in **React**.    
+A static tweet UI to demonstrate the concept of components and props in **React**.    
 
 # Demo Image
 

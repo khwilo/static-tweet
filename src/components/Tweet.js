@@ -9,7 +9,7 @@ import ReplyButton from './ReplyButton';
 import RetweetButton from './RetweetButton';
 import Time from './Time';
 
-const Tweet = () => {
+const Tweet = ({ tweet }) => {
     return (
         <div className="main">
             <div className="left-tweetContents">

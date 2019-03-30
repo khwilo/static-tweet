@@ -17,8 +17,8 @@ const Tweet = ({ tweet }) => {
             </div>
             <div className="right-tweetContents">
                 <div className="right-top-tweetContents">
-                    <NameWithHandle />
-                    <Time />
+                    <NameWithHandle author={tweet.author} />
+                    <Time time={tweet.timestamp} />
                 </div>
                 <div className="right-middle-tweetContents">
                     <Message text={tweet.message} />

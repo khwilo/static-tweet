@@ -1,11 +1,12 @@
 import React from 'react';
 
-const NameWithHandle = () => {
+const NameWithHandle = ({ author }) => {
+    const { name, handle } = author;
     return (
         <div className="tweet-name">
             <p>
-                <span className="name">Khwilo Kabaka</span>
-                <span className="handle">@khwilo</span></p>
+                <span className="name">{name}</span>
+                <span className="handle">@{handle}</span></p>
         </div>
     );
 };

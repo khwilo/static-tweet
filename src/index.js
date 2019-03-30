@@ -7,7 +7,7 @@ const testTweet = {
     message : "In JavaScript, recursion involves functions that call themselves repeatedly until they reach a base condition.",
     gravatar: "nothing",
     author  : {
-        handle: "@khwilo",
+        handle: "khwilo",
         name  : "Khwilo Kabaka"
     },
     likes    : 12,

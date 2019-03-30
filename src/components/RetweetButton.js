@@ -16,7 +16,7 @@ const RetweetButton = ({ count }) => {
     return (
         <div>
             <button className="tweet-interact-btn">
-                <i class="fa fa-retweet" aria-hidden="true">
+                <i className="fa fa-retweet" aria-hidden="true">
                     <Count count={count} />
                 </i>
             </button>

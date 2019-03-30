@@ -5,7 +5,7 @@ const LikeButton = ({ count }) => {
     return (
         <div>
             <button className="tweet-interact-btn">
-                <i class="fa fa-heart-o" aria-hidden="true">
+                <i className="fa fa-heart-o" aria-hidden="true">
                     {
                         count > 0 && <span className="like-count">{count}</span>
                     }

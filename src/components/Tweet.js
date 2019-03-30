@@ -13,7 +13,7 @@ const Tweet = ({ tweet }) => {
     return (
         <div className="main">
             <div className="left-tweetContents">
-                <Avatar />
+                <Avatar hash={tweet.gravatar}/>
             </div>
             <div className="right-tweetContents">
                 <div className="right-top-tweetContents">

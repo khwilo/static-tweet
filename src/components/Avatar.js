@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Avatar = () => {
+const Avatar = ({ hash }) => {
+    const url = `https://www.gravatar.com/avatar/${hash}`;
     return (
         <div className="tweet-avatar-container">
             <img
                 className = "tweet-avatar"
-                src       = "https://www.gravatar.com/avatar/nothing"
+                src       = {url}
                 alt       = "avatar"
             />
         </div>

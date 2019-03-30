@@ -25,8 +25,8 @@ const Tweet = ({ tweet }) => {
                 </div>
                 <div className="right-bottom-tweetContents">
                     <ReplyButton />
-                    <LikeButton />
-                    <RetweetButton />
+                    <LikeButton count={tweet.likes} />
+                    <RetweetButton count={tweet.retweets} />
                     <MoreOptionsButton />
                 </div>
             </div>

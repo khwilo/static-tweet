@@ -1,6 +1,6 @@
 .main {
   margin          : 0 auto;
-  width           : 50%;
+  width           : 60%;
   background-color: #232c3d;
   padding         : 5px;
   display         : flex;
@@ -42,6 +42,12 @@
   background-color: #232c3d;
   cursor          : pointer;
   color           : gray;
+  width           : 80px;
+  display         : inline-block;
+}
+
+.tweet-interact-btn i {
+  width: 80px;
 }
 
 .tweet-message {
@@ -65,4 +71,11 @@
 
 .handle {
   color: gray;
+}
+
+.retweet-count, .like-count {
+  font-size  : 13px;
+  margin-left: 6px;
+  font-weight: bold;
+  color      : #ffffff;
 }

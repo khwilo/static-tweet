@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Avatar = ({ hash }) => {
     const url = `https://www.gravatar.com/avatar/${hash}`;
@@ -11,6 +12,10 @@ const Avatar = ({ hash }) => {
             />
         </div>
     );
+};
+
+Avatar.propTypes = {
+    hash: PropTypes.string.isRequired
 };
 
 export default Avatar;

@@ -5,7 +5,7 @@ import Tweet from './components/Tweet';
 
 const testTweet = {
     message : "In JavaScript, recursion involves functions that call themselves repeatedly until they reach a base condition.",
-    gravatar: "https://www.gravatar.com/avatar/nothing",
+    gravatar: "nothing",
     author  : {
         handle: "@khwilo",
         name  : "Khwilo Kabaka"

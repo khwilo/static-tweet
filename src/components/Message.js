@@ -1,12 +1,9 @@
 import React from 'react';
 
-const Message = () => {
+const Message = ({ text }) => {
     return (
         <div className="tweet-message">
-            <p>
-                In JavaScript, recursion involves functions that call
-                themselves repeatedly until they reach a base condition.
-            </p>
+            <p>{text}</p>
         </div>
     );
 };

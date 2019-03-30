@@ -13,7 +13,7 @@ const Tweet = ({ tweet }) => {
     return (
         <div className="main">
             <div className="left-tweetContents">
-                <Avatar hash={tweet.gravatar}/>
+                <Avatar hash={tweet.gravatar} />
             </div>
             <div className="right-tweetContents">
                 <div className="right-top-tweetContents">
@@ -21,7 +21,7 @@ const Tweet = ({ tweet }) => {
                     <Time />
                 </div>
                 <div className="right-middle-tweetContents">
-                    <Message />
+                    <Message text={tweet.message} />
                 </div>
                 <div className="right-bottom-tweetContents">
                     <ReplyButton />
